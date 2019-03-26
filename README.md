@@ -19,6 +19,7 @@ Another benifit from this architecture is, the data source could be consumed in 
 
 * Running a local RPC server to handling HTTP request from JS or Native code, the server side do the data sync, persist, computing jobs, the JS/Native client only need care the result.
 
-* Running a http Proxy server in between APP and BackEnd, handing things of fetching, caching, updating, good for static assets like video/audio, website assets.
+* Running a http Proxy server in between APP and BackEnd, handing things of fetching, caching, updating, good for network resource like video/audio, website static assets.
 
+* Declarative Data Sync Engine, like the `useNaitveDrive` for **Animattion**, declare what you want in JS, using syntax like `graphql`, let the native engine handle everything for you.
 
